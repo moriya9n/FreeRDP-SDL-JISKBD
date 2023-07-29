@@ -27,5 +27,8 @@ sdl-freerdp を /usr/local/bin など、適当な場所にコピー。
 
 ターミナルを開き、以下のコマンドを実行
 
-sdl-freerdp /v:接続先 /u:ユーザ名 /p:パスワード /kbd:layout:Japanese,lang:0x0411 /dynamic-resolution /sound /microphone /video
+sdl-freerdp /v:接続先 /u:ユーザ名 /p:パスワード /kbd:layout:Japanese /dynamic-resolution /sound /microphone /video
 
+## その他
+
+* 全角半角は、右 command に割り当てています。
