@@ -505,7 +505,8 @@ static BOOL sdl_pre_connect(freerdp* instance)
 	WINPR_ASSERT(instance->context);
 
 	auto sdl = get_context(instance->context);
-	sdl->highDpi = TRUE; // If High DPI is available, we want unscaled data, RDP can scale itself.
+	//sdl->highDpi = TRUE; // If High DPI is available, we want unscaled data, RDP can scale itself.
+	sdl->highDpi = FALSE; // If High DPI is available, we want unscaled data, RDP can scale itself.
 
 	auto settings = instance->context->settings;
 	WINPR_ASSERT(settings);
