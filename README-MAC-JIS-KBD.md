@@ -2,10 +2,12 @@
 
 ## 必要なパッケージのインストール
 
+```
 brew install pkcs11-helper
 brew install cjson
 brew install sdl2_ttf
 (brew install openssl@3 も必要かも？インストールされていなければ)
+```
 
 ## ビルド(バイナリをダウンロードする場合は不要)
 
